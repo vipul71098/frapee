@@ -11,12 +11,12 @@
     "erpnext": {
         "is_repo": true,
         "resolution": {
-            "commit_hash": "740c17c23127fb2c0aa5a1c50fb4d6c105c43e77",
+            "commit_hash": "14e5f239ac2af01074973d341c2f0ee57c99901f",
             "branch": "version-14"
         },
         "required": [],
         "idx": 2,
-        "version": "14.1.1"
+        "version": "14.1.2"
     },
     "payments": {
         "is_repo": true,

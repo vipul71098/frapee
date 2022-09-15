@@ -1,65 +1,51 @@
-2022-09-14 12:42:48,437 DEBUG cd frappe-bench && python3.10 -m venv env
-2022-09-14 12:42:54,105 DEBUG cd frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
-2022-09-14 12:42:59,372 LOG Getting frappe
-2022-09-14 12:42:59,372 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
-2022-09-14 12:43:14,688 LOG Installing frappe
-2022-09-14 12:43:14,688 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/frappe 
-2022-09-14 12:44:53,130 DEBUG cd /workspace/development/frappe-bench/apps/frappe && yarn install
-2022-09-14 12:45:27,791 DEBUG cd frappe-bench && bench build
-2022-09-14 12:45:27,954 INFO /home/frappe/.local/bin/bench build
-2022-09-14 12:45:53,675 LOG setting up backups
-2022-09-14 12:45:53,716 LOG backups were set up
-2022-09-14 12:45:53,718 INFO Bench frappe-bench initialized
-2022-09-14 12:45:54,024 INFO /home/frappe/.local/bin/bench set-config -g db_host mariadb
-2022-09-14 12:45:55,362 INFO /home/frappe/.local/bin/bench set-config -g redis_cache redis://redis-cache:6379
-2022-09-14 12:45:56,637 INFO /home/frappe/.local/bin/bench set-config -g redis_queue redis://redis-queue:6379
-2022-09-14 12:45:57,918 INFO /home/frappe/.local/bin/bench set-config -g redis_socketio redis://redis-socketio:6379
-2022-09-14 12:45:59,208 INFO /home/frappe/.local/bin/bench new-site erpnext-testing.localhost --mariadb-root-password 123 --admin-password admin --no-mariadb-socket
-2022-09-14 12:46:41,267 INFO /home/frappe/.local/bin/bench --site erpnext-testing.localhost set-config developer_mode 1
-2022-09-14 12:46:42,627 INFO /home/frappe/.local/bin/bench --site erpnext-testing.localhost clear-cache
-2022-09-14 12:46:44,328 INFO /home/frappe/.local/bin/bench --site erpnext-testing.localhost enable-scheduler
-2022-09-14 12:46:46,029 INFO /home/frappe/.local/bin/bench get-app --branch version-14 erpnext
-2022-09-14 12:46:47,553 LOG Getting erpnext
-2022-09-14 12:46:47,553 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
-2022-09-14 12:46:57,665 LOG Installing erpnext
-2022-09-14 12:46:57,895 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/erpnext 
-2022-09-14 12:48:09,807 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && yarn install
-2022-09-14 12:48:17,512 DEBUG bench build --app erpnext
-2022-09-14 12:48:17,653 INFO /home/frappe/.local/bin/bench build --app erpnext
-2022-09-14 12:48:22,420 INFO /home/frappe/.local/bin/bench --site erpnext-testing.localhost install-app erpnext
-2022-09-14 12:48:26,203 INFO /home/frappe/.local/bin/bench get-app payments
-2022-09-14 12:48:26,471 LOG Getting payments
-2022-09-14 12:48:26,471 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
-2022-09-14 12:48:28,043 LOG Installing payments
-2022-09-14 12:48:28,300 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/payments 
-2022-09-14 12:48:34,625 DEBUG bench build --app payments
-2022-09-14 12:48:34,791 INFO /home/frappe/.local/bin/bench build --app payments
-2022-09-14 12:48:37,726 INFO /home/frappe/.local/bin/bench get-app hrms
-2022-09-14 12:48:38,359 LOG Getting hrms
-2022-09-14 12:48:38,360 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
-2022-09-14 12:48:41,250 LOG Installing hrms
-2022-09-14 12:48:41,491 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/hrms 
-2022-09-14 12:48:45,415 DEBUG bench build --app hrms
-2022-09-14 12:48:45,558 INFO /home/frappe/.local/bin/bench build --app hrms
-2022-09-14 12:48:48,444 INFO /home/frappe/.local/bin/bench --site erpnext-testing.localhost install-app hrms
-2022-09-14 12:51:12,708 INFO /home/frappe/.local/bin/bench start
-2022-09-14 12:51:13,162 INFO /home/frappe/.local/bin/bench serve --port 8000
-2022-09-14 12:51:13,346 INFO /home/frappe/.local/bin/bench worker --queue default
-2022-09-14 12:51:13,348 INFO /home/frappe/.local/bin/bench watch
-2022-09-14 12:51:13,391 INFO /home/frappe/.local/bin/bench worker --queue short
-2022-09-14 12:51:13,404 INFO /home/frappe/.local/bin/bench schedule
-2022-09-14 12:51:13,410 INFO /home/frappe/.local/bin/bench worker --queue long
-2022-09-14 13:00:37,079 INFO /home/frappe/.local/bin/bench start
-2022-09-14 13:00:37,580 INFO /home/frappe/.local/bin/bench worker --queue short
-2022-09-14 13:00:37,694 INFO /home/frappe/.local/bin/bench serve --port 8000
-2022-09-14 13:00:37,768 INFO /home/frappe/.local/bin/bench worker --queue long
-2022-09-14 13:00:37,777 INFO /home/frappe/.local/bin/bench watch
-2022-09-14 13:00:37,833 INFO /home/frappe/.local/bin/bench schedule
-2022-09-14 13:00:37,895 INFO /home/frappe/.local/bin/bench worker --queue default
-2022-09-14 13:02:25,967 INFO /home/frappe/.local/bin/bench start
-2022-09-14 13:02:26,547 INFO /home/frappe/.local/bin/bench watch
-2022-09-14 13:02:26,751 INFO /home/frappe/.local/bin/bench serve --port 8000
-2022-09-14 13:02:26,811 INFO /home/frappe/.local/bin/bench worker --queue short
-2022-09-14 13:02:26,858 INFO /home/frappe/.local/bin/bench worker --queue long
-2022-09-14 13:02:26,881 INFO /home/frappe/.local/bin/bench schedule
-2022-09-14 13:02:26,913 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 05:22:31,030 DEBUG cd frappe-bench && python3.10 -m venv env
+2022-09-15 05:22:36,984 DEBUG cd frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-09-15 05:22:42,461 LOG Getting frappe
+2022-09-15 05:22:42,461 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2022-09-15 05:22:47,957 LOG Installing frappe
+2022-09-15 05:22:47,958 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/frappe 
+2022-09-15 05:24:23,667 DEBUG cd /workspace/development/frappe-bench/apps/frappe && yarn install
+2022-09-15 05:25:46,811 DEBUG cd frappe-bench && bench build
+2022-09-15 05:25:47,000 INFO /home/frappe/.local/bin/bench build
+2022-09-15 05:26:10,674 LOG setting up backups
+2022-09-15 05:26:10,717 LOG backups were set up
+2022-09-15 05:26:10,717 INFO Bench frappe-bench initialized
+2022-09-15 05:26:11,044 INFO /home/frappe/.local/bin/bench set-config -g db_host mariadb
+2022-09-15 05:26:12,357 INFO /home/frappe/.local/bin/bench set-config -g redis_cache redis://redis-cache:6379
+2022-09-15 05:26:13,627 INFO /home/frappe/.local/bin/bench set-config -g redis_queue redis://redis-queue:6379
+2022-09-15 05:26:14,973 INFO /home/frappe/.local/bin/bench set-config -g redis_socketio redis://redis-socketio:6379
+2022-09-15 05:26:16,303 INFO /home/frappe/.local/bin/bench new-site erpnext-testing.localhost --mariadb-root-password 123 --admin-password admin --no-mariadb-socket
+2022-09-15 05:27:15,977 INFO /home/frappe/.local/bin/bench --site erpnext-testing.localhost set-config developer_mode 1
+2022-09-15 05:27:17,341 INFO /home/frappe/.local/bin/bench --site erpnext-testing.localhost clear-cache
+2022-09-15 05:27:19,046 INFO /home/frappe/.local/bin/bench --site erpnext-testing.localhost enable-scheduler
+2022-09-15 05:27:20,755 INFO /home/frappe/.local/bin/bench get-app --branch version-14 erpnext
+2022-09-15 05:27:21,753 LOG Getting erpnext
+2022-09-15 05:27:21,754 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2022-09-15 05:27:29,717 LOG Installing erpnext
+2022-09-15 05:27:29,988 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/erpnext 
+2022-09-15 05:28:16,056 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && yarn install
+2022-09-15 05:28:19,091 DEBUG bench build --app erpnext
+2022-09-15 05:28:19,377 INFO /home/frappe/.local/bin/bench build --app erpnext
+2022-09-15 05:28:27,263 INFO /home/frappe/.local/bin/bench --site erpnext-testing.localhost install-app erpnext
+2022-09-15 05:28:31,392 INFO /home/frappe/.local/bin/bench get-app payments
+2022-09-15 05:28:31,975 LOG Getting payments
+2022-09-15 05:28:31,976 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2022-09-15 05:28:33,270 LOG Installing payments
+2022-09-15 05:28:33,585 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/payments 
+2022-09-15 05:28:39,491 DEBUG bench build --app payments
+2022-09-15 05:28:39,670 INFO /home/frappe/.local/bin/bench build --app payments
+2022-09-15 05:28:42,880 INFO /home/frappe/.local/bin/bench get-app hrms
+2022-09-15 05:28:43,476 LOG Getting hrms
+2022-09-15 05:28:43,477 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2022-09-15 05:28:45,399 LOG Installing hrms
+2022-09-15 05:28:45,671 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/hrms 
+2022-09-15 05:28:49,232 DEBUG bench build --app hrms
+2022-09-15 05:28:49,399 INFO /home/frappe/.local/bin/bench build --app hrms
+2022-09-15 05:28:52,496 INFO /home/frappe/.local/bin/bench --site erpnext-testing.localhost install-app hrms
+2022-09-15 05:31:28,341 INFO /home/frappe/.local/bin/bench start
+2022-09-15 05:31:28,866 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-09-15 05:31:28,869 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 05:31:29,109 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 05:31:29,111 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 05:31:29,152 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 05:31:29,221 INFO /home/frappe/.local/bin/bench worker --queue default
