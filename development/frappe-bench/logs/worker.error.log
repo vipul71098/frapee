@@ -238,3 +238,21 @@
   warn(
 /workspace/development/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
   warn(
+/workspace/development/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/workspace/development/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/workspace/development/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/workspace/development/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/workspace/development/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/workspace/development/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/workspace/development/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/workspace/development/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/workspace/development/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
