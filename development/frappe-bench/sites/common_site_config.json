@@ -5,6 +5,8 @@
  "frappe_user": "frappe",
  "gunicorn_workers": 9,
  "live_reload": true,
+ "maintenance_mode": 0,
+ "pause_scheduler": 0,
  "rebase_on_pull": false,
  "redis_cache": "redis://redis-cache:6379",
  "redis_queue": "redis://redis-queue:6379",

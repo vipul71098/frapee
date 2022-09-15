@@ -1,0 +1,156 @@
+2022-09-15 06:38:34,635 ERROR frappe New Exception collected with id: 2022-09-15 06:38:33.438044-127.0.0.1-850
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:38:34,710 ERROR frappe New Exception collected with id: 2022-09-15 06:38:34.581724-127.0.0.1-590
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:38:35,319 ERROR frappe New Exception collected with id: 2022-09-15 06:38:35.317422-127.0.0.1-b78
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:38:35,441 ERROR frappe New Exception collected with id: 2022-09-15 06:38:35.436236-127.0.0.1-fab
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:38:35,477 ERROR frappe New Exception collected with id: 2022-09-15 06:38:35.476274-127.0.0.1-32a
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:38:49,263 ERROR frappe New Exception collected with id: 2022-09-15 06:38:49.262388-127.0.0.1-13d
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:38:50,013 ERROR frappe New Exception collected with id: 2022-09-15 06:38:50.011673-127.0.0.1-e39
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:38:50,170 ERROR frappe New Exception collected with id: 2022-09-15 06:38:50.168160-127.0.0.1-4c8
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:38:50,215 ERROR frappe New Exception collected with id: 2022-09-15 06:38:50.211761-127.0.0.1-c9d
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:01,552 ERROR frappe New Exception collected with id: 2022-09-15 06:39:01.550433-127.0.0.1-67d
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:02,020 ERROR frappe New Exception collected with id: 2022-09-15 06:39:02.019555-127.0.0.1-613
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:02,176 ERROR frappe New Exception collected with id: 2022-09-15 06:39:02.170412-127.0.0.1-6ce
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:02,202 ERROR frappe New Exception collected with id: 2022-09-15 06:39:02.200503-127.0.0.1-4cc
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:05,414 ERROR frappe New Exception collected with id: 2022-09-15 06:39:05.413549-127.0.0.1-446
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:05,841 ERROR frappe New Exception collected with id: 2022-09-15 06:39:05.840175-127.0.0.1-126
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:05,953 ERROR frappe New Exception collected with id: 2022-09-15 06:39:05.943246-127.0.0.1-328
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:05,977 ERROR frappe New Exception collected with id: 2022-09-15 06:39:05.974311-127.0.0.1-ab7
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:09,076 ERROR frappe New Exception collected with id: 2022-09-15 06:39:09.075515-127.0.0.1-047
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:09,472 ERROR frappe New Exception collected with id: 2022-09-15 06:39:09.471122-127.0.0.1-52e
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:09,629 ERROR frappe New Exception collected with id: 2022-09-15 06:39:09.627673-127.0.0.1-73b
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:09,639 ERROR frappe New Exception collected with id: 2022-09-15 06:39:09.630527-127.0.0.1-99a
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:23,397 ERROR frappe New Exception collected with id: 2022-09-15 06:39:23.118460-127.0.0.1-7f9
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:39,561 ERROR frappe New Exception collected with id: 2022-09-15 06:39:39.559903-127.0.0.1-80e
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:40,058 ERROR frappe New Exception collected with id: 2022-09-15 06:39:40.057131-127.0.0.1-836
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:40,203 ERROR frappe New Exception collected with id: 2022-09-15 06:39:40.180500-127.0.0.1-079
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:40,221 ERROR frappe New Exception collected with id: 2022-09-15 06:39:40.209762-127.0.0.1-699
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:42,570 ERROR frappe New Exception collected with id: 2022-09-15 06:39:42.569259-127.0.0.1-44d
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:43,052 ERROR frappe New Exception collected with id: 2022-09-15 06:39:43.049853-127.0.0.1-19d
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:43,205 ERROR frappe New Exception collected with id: 2022-09-15 06:39:43.202395-127.0.0.1-848
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:39:43,214 ERROR frappe New Exception collected with id: 2022-09-15 06:39:43.198291-127.0.0.1-fea
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:04,341 ERROR frappe New Exception collected with id: 2022-09-15 06:41:03.921189-127.0.0.1-e7a
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:05,749 ERROR frappe New Exception collected with id: 2022-09-15 06:41:05.732521-127.0.0.1-889
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:06,445 ERROR frappe New Exception collected with id: 2022-09-15 06:41:06.444209-127.0.0.1-96b
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:06,617 ERROR frappe New Exception collected with id: 2022-09-15 06:41:06.615696-127.0.0.1-07d
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:06,623 ERROR frappe New Exception collected with id: 2022-09-15 06:41:06.618301-127.0.0.1-5f8
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:09,751 ERROR frappe New Exception collected with id: 2022-09-15 06:41:09.749667-127.0.0.1-3da
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:10,316 ERROR frappe New Exception collected with id: 2022-09-15 06:41:10.315040-127.0.0.1-de9
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:10,486 ERROR frappe New Exception collected with id: 2022-09-15 06:41:10.482801-127.0.0.1-1ca
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:10,508 ERROR frappe New Exception collected with id: 2022-09-15 06:41:10.504124-127.0.0.1-b0b
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:11,985 ERROR frappe New Exception collected with id: 2022-09-15 06:41:11.983953-127.0.0.1-653
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:12,669 ERROR frappe New Exception collected with id: 2022-09-15 06:41:12.667300-127.0.0.1-dee
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:12,797 ERROR frappe New Exception collected with id: 2022-09-15 06:41:12.795141-127.0.0.1-72d
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:12,830 ERROR frappe New Exception collected with id: 2022-09-15 06:41:12.828792-127.0.0.1-f0d
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:51,773 ERROR frappe New Exception collected with id: 2022-09-15 06:41:51.771723-127.0.0.1-286
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:52,317 ERROR frappe New Exception collected with id: 2022-09-15 06:41:52.315002-127.0.0.1-84c
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:52,470 ERROR frappe New Exception collected with id: 2022-09-15 06:41:52.464191-127.0.0.1-7ff
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:41:52,523 ERROR frappe New Exception collected with id: 2022-09-15 06:41:52.515889-127.0.0.1-662
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:42:50,873 ERROR frappe New Exception collected with id: 2022-09-15 06:42:50.508553-127.0.0.1-04d
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:42:55,815 ERROR frappe New Exception collected with id: 2022-09-15 06:42:55.812837-127.0.0.1-f2f
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:42:56,336 ERROR frappe New Exception collected with id: 2022-09-15 06:42:56.335071-127.0.0.1-f92
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:42:56,433 ERROR frappe New Exception collected with id: 2022-09-15 06:42:56.431803-127.0.0.1-c75
+Site: erpnext-testing.localhost
+Form Dict: {}
+2022-09-15 06:42:56,457 ERROR frappe New Exception collected with id: 2022-09-15 06:42:56.455614-127.0.0.1-2ad
+Site: erpnext-testing.localhost
+Form Dict: {}

@@ -49,3 +49,135 @@
 2022-09-15 05:31:29,111 INFO /home/frappe/.local/bin/bench worker --queue long
 2022-09-15 05:31:29,152 INFO /home/frappe/.local/bin/bench watch
 2022-09-15 05:31:29,221 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:26:08,619 INFO /home/frappe/.local/bin/bench restart
+2022-09-15 06:26:12,403 INFO /home/frappe/.local/bin/bench start
+2022-09-15 06:26:12,950 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 06:26:12,969 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:26:12,991 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-09-15 06:26:13,018 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 06:26:13,105 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 06:26:17,755 INFO /home/frappe/.local/bin/bench stop
+2022-09-15 06:26:23,784 INFO /home/frappe/.local/bin/bench start
+2022-09-15 06:26:24,474 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 06:26:24,576 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 06:26:24,600 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:26:24,604 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 06:26:24,625 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 06:26:24,699 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-09-15 06:26:41,877 INFO /home/frappe/.local/bin/bench restart
+2022-09-15 06:27:08,792 INFO /home/frappe/.local/bin/bench stop
+2022-09-15 06:27:18,229 INFO /home/frappe/.local/bin/bench down
+2022-09-15 06:29:15,094 INFO /home/frappe/.local/bin/bench restart
+2022-09-15 06:29:20,814 INFO /home/frappe/.local/bin/bench start
+2022-09-15 06:29:21,445 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 06:29:21,492 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 06:29:21,536 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:29:21,551 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 06:29:21,656 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 06:33:19,728 INFO /home/frappe/.local/bin/bench start
+2022-09-15 06:33:20,355 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 06:33:20,366 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 06:33:20,525 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 06:33:20,587 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-09-15 06:33:20,657 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:33:20,661 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 06:36:16,789 INFO /home/frappe/.local/bin/bench build
+2022-09-15 06:36:45,699 INFO /home/frappe/.local/bin/bench start
+2022-09-15 06:36:46,239 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 06:36:46,298 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-09-15 06:36:46,298 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 06:36:46,409 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 06:36:46,503 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 06:36:46,516 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:37:38,880 INFO /home/frappe/.local/bin/bench update
+2022-09-15 06:37:40,760 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2022-09-15 06:37:53,622 WARNING /home/frappe/.local/bin/bench update executed with exit code 1
+2022-09-15 06:38:02,426 INFO /home/frappe/.local/bin/bench build
+2022-09-15 06:38:25,713 INFO /home/frappe/.local/bin/bench start
+2022-09-15 06:38:26,286 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 06:38:26,376 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:38:26,424 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 06:38:26,428 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 06:38:26,495 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 06:38:26,581 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-09-15 06:39:17,438 INFO /home/frappe/.local/bin/bench start
+2022-09-15 06:39:17,944 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 06:39:17,958 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 06:39:18,168 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-09-15 06:39:18,172 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 06:39:18,174 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 06:39:18,183 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:40:34,921 INFO /home/frappe/.local/bin/bench build
+2022-09-15 06:40:57,171 INFO /home/frappe/.local/bin/bench start
+2022-09-15 06:40:57,721 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 06:40:57,729 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 06:40:57,800 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:40:57,850 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 06:40:57,874 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 06:40:57,921 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-09-15 06:42:02,405 INFO /home/frappe/.local/bin/bench update
+2022-09-15 06:42:04,163 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2022-09-15 06:42:16,925 WARNING /home/frappe/.local/bin/bench update executed with exit code 1
+2022-09-15 06:42:21,667 INFO /home/frappe/.local/bin/bench migrate
+2022-09-15 06:42:44,611 INFO /home/frappe/.local/bin/bench start
+2022-09-15 06:42:45,152 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 06:42:45,395 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-09-15 06:42:45,399 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 06:42:45,485 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 06:42:45,506 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:42:45,512 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 06:43:21,345 INFO /home/frappe/.local/bin/bench update --reset
+2022-09-15 06:43:25,992 LOG pulling frappe
+2022-09-15 06:43:25,992 DEBUG cd /workspace/development/frappe-bench/apps/frappe && git fetch --depth=1 --no-tags upstream version-14
+2022-09-15 06:43:28,097 DEBUG cd /workspace/development/frappe-bench/apps/frappe && git reset --hard upstream/version-14
+2022-09-15 06:43:28,126 DEBUG cd /workspace/development/frappe-bench/apps/frappe && git reflog expire --all
+2022-09-15 06:43:28,134 DEBUG cd /workspace/development/frappe-bench/apps/frappe && git gc --prune=all
+2022-09-15 06:43:29,074 DEBUG cd /workspace/development/frappe-bench/apps/frappe && find . -name "*.pyc" -delete
+2022-09-15 06:43:29,255 LOG pulling erpnext
+2022-09-15 06:43:29,256 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && git fetch --depth=1 --no-tags upstream version-14
+2022-09-15 06:43:31,547 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && git reset --hard upstream/version-14
+2022-09-15 06:43:31,849 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && git reflog expire --all
+2022-09-15 06:43:31,853 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && git gc --prune=all
+2022-09-15 06:43:32,214 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && find . -name "*.pyc" -delete
+2022-09-15 06:43:32,332 LOG pulling hrms
+2022-09-15 06:43:32,333 DEBUG cd /workspace/development/frappe-bench/apps/hrms && git fetch --depth=1 --no-tags upstream develop
+2022-09-15 06:43:34,404 DEBUG cd /workspace/development/frappe-bench/apps/hrms && git reset --hard upstream/develop
+2022-09-15 06:43:34,425 DEBUG cd /workspace/development/frappe-bench/apps/hrms && git reflog expire --all
+2022-09-15 06:43:34,434 DEBUG cd /workspace/development/frappe-bench/apps/hrms && git gc --prune=all
+2022-09-15 06:43:34,519 DEBUG cd /workspace/development/frappe-bench/apps/hrms && find . -name "*.pyc" -delete
+2022-09-15 06:43:34,560 LOG pulling payments
+2022-09-15 06:43:34,561 DEBUG cd /workspace/development/frappe-bench/apps/payments && git fetch --depth=1 --no-tags upstream develop
+2022-09-15 06:43:36,571 DEBUG cd /workspace/development/frappe-bench/apps/payments && git reset --hard upstream/develop
+2022-09-15 06:43:36,581 DEBUG cd /workspace/development/frappe-bench/apps/payments && git reflog expire --all
+2022-09-15 06:43:36,586 DEBUG cd /workspace/development/frappe-bench/apps/payments && git gc --prune=all
+2022-09-15 06:43:36,649 DEBUG cd /workspace/development/frappe-bench/apps/payments && find . -name "*.pyc" -delete
+2022-09-15 06:43:36,656 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-09-15 06:43:38,703 LOG Installing frappe
+2022-09-15 06:43:38,704 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/frappe 
+2022-09-15 06:43:43,812 DEBUG cd /workspace/development/frappe-bench/apps/frappe && yarn install
+2022-09-15 06:43:44,574 LOG Installing erpnext
+2022-09-15 06:43:44,574 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/erpnext 
+2022-09-15 06:43:48,109 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && yarn install
+2022-09-15 06:43:48,572 LOG Installing hrms
+2022-09-15 06:43:48,573 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/hrms 
+2022-09-15 06:43:52,003 LOG Installing payments
+2022-09-15 06:43:52,004 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/payments 
+2022-09-15 06:44:43,238 INFO /home/frappe/.local/bin/bench start
+2022-09-15 06:44:43,688 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 06:44:43,842 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 06:44:43,880 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 06:44:43,884 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 06:44:43,894 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 06:44:43,933 INFO /home/frappe/.local/bin/bench worker --queue short

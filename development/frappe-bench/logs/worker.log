@@ -391,3 +391,219 @@
 05:42:44 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (8d36cf30-18c7-4a45-a321-52646f045f2a)
 05:42:45 workspace-development-frappe-bench:default: Job OK (8d36cf30-18c7-4a45-a321-52646f045f2a)
 05:42:45 Result is kept for 600 seconds
+05:45:42 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (03cdc1d0-ce2d-4413-ae4b-b24e0fe8fa97)
+05:45:43 workspace-development-frappe-bench:default: Job OK (03cdc1d0-ce2d-4413-ae4b-b24e0fe8fa97)
+05:45:43 Result is kept for 600 seconds
+05:45:43 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (7ccbc4a1-14bb-4b28-be39-74cabb28f709)
+05:45:43 workspace-development-frappe-bench:default: Job OK (7ccbc4a1-14bb-4b28-be39-74cabb28f709)
+05:45:43 Result is kept for 600 seconds
+05:45:43 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (41ad4620-7399-4c2b-aaba-d7f92336d173)
+05:45:43 workspace-development-frappe-bench:default: Job OK (41ad4620-7399-4c2b-aaba-d7f92336d173)
+05:45:43 Result is kept for 600 seconds
+05:45:43 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (ce08ef27-8b69-48de-a177-200d07d0a066)
+05:45:44 workspace-development-frappe-bench:default: Job OK (ce08ef27-8b69-48de-a177-200d07d0a066)
+05:45:44 Result is kept for 600 seconds
+05:46:43 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'hrms.hr.doctype.interview.interview.send_interview_reminder'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (60d65b75-e96c-4bc7-9e72-a472645650a0)
+05:46:43 workspace-development-frappe-bench:default: Job OK (60d65b75-e96c-4bc7-9e72-a472645650a0)
+05:46:43 Result is kept for 600 seconds
+05:46:43 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (2dd39685-3cba-4a9b-9a4c-96feb79d45f5)
+05:46:43 workspace-development-frappe-bench:default: Job OK (2dd39685-3cba-4a9b-9a4c-96feb79d45f5)
+05:46:43 Result is kept for 600 seconds
+05:46:43 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (32e1f3da-6321-42e3-8b0f-7f6335e073cc)
+05:46:44 workspace-development-frappe-bench:default: Job OK (32e1f3da-6321-42e3-8b0f-7f6335e073cc)
+05:46:44 Result is kept for 600 seconds
+05:46:44 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (07ed6f81-7353-495b-95db-393860ce3d33)
+05:46:44 workspace-development-frappe-bench:default: Job OK (07ed6f81-7353-495b-95db-393860ce3d33)
+05:46:44 Result is kept for 600 seconds
+05:46:44 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (0336c4ec-34ca-44cd-a2db-3c4f7bda38a2)
+05:46:44 workspace-development-frappe-bench:default: Job OK (0336c4ec-34ca-44cd-a2db-3c4f7bda38a2)
+05:46:44 Result is kept for 600 seconds
+05:46:44 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (c33c7ca1-d722-4504-bf60-4f6d4f1e6e4a)
+05:46:45 workspace-development-frappe-bench:default: Job OK (c33c7ca1-d722-4504-bf60-4f6d4f1e6e4a)
+05:46:45 Result is kept for 600 seconds
+05:46:45 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (52dd4f86-b78f-4593-89e2-aed76b20bf89)
+05:46:45 workspace-development-frappe-bench:default: Job OK (52dd4f86-b78f-4593-89e2-aed76b20bf89)
+05:46:45 Result is kept for 600 seconds
+05:46:45 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (3045bb0f-f70e-48a6-b74f-0930d4319f4e)
+05:46:46 workspace-development-frappe-bench:default: Job OK (3045bb0f-f70e-48a6-b74f-0930d4319f4e)
+05:46:46 Result is kept for 600 seconds
+05:46:46 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (18864f41-b028-424a-a4ed-ff8e0d158f04)
+05:46:46 workspace-development-frappe-bench:default: Job OK (18864f41-b028-424a-a4ed-ff8e0d158f04)
+05:46:46 Result is kept for 600 seconds
+05:50:44 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'hrms.hr.doctype.interview.interview.send_interview_reminder'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (6e33750f-26fb-4bd5-8a99-8edb30798470)
+05:50:44 workspace-development-frappe-bench:default: Job OK (6e33750f-26fb-4bd5-8a99-8edb30798470)
+05:50:44 Result is kept for 600 seconds
+05:50:44 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (21009e4b-97e1-4d2f-ac97-d5d35059a56b)
+05:50:45 workspace-development-frappe-bench:default: Job OK (21009e4b-97e1-4d2f-ac97-d5d35059a56b)
+05:50:45 Result is kept for 600 seconds
+05:50:45 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (8701fc55-8c85-4b8c-b3cf-34c056510ea6)
+05:50:45 workspace-development-frappe-bench:default: Job OK (8701fc55-8c85-4b8c-b3cf-34c056510ea6)
+05:50:45 Result is kept for 600 seconds
+05:50:45 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (b4da5f78-d3c9-4b01-bfbc-ae8bdd8fb45f)
+05:50:45 workspace-development-frappe-bench:default: Job OK (b4da5f78-d3c9-4b01-bfbc-ae8bdd8fb45f)
+05:50:45 Result is kept for 600 seconds
+05:50:45 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (4912a9dd-0023-4258-a48b-65764fa521b5)
+05:50:46 workspace-development-frappe-bench:default: Job OK (4912a9dd-0023-4258-a48b-65764fa521b5)
+05:50:46 Result is kept for 600 seconds
+05:50:46 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (602dbeff-4fae-4c01-b9ac-5a4fce84ddf7)
+05:50:46 workspace-development-frappe-bench:default: Job OK (602dbeff-4fae-4c01-b9ac-5a4fce84ddf7)
+05:50:46 Result is kept for 600 seconds
+05:50:46 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (03e25849-5a7a-48f9-ac94-1e6a9422a5b5)
+05:50:46 workspace-development-frappe-bench:default: Job OK (03e25849-5a7a-48f9-ac94-1e6a9422a5b5)
+05:50:46 Result is kept for 600 seconds
+05:50:46 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (dcbfc281-9d3d-4436-b6db-674bb1ed2a68)
+05:50:47 workspace-development-frappe-bench:default: Job OK (dcbfc281-9d3d-4436-b6db-674bb1ed2a68)
+05:50:47 Result is kept for 600 seconds
+05:50:47 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (50226651-72fc-4e5d-9141-e54fdfbad67e)
+05:50:47 workspace-development-frappe-bench:default: Job OK (50226651-72fc-4e5d-9141-e54fdfbad67e)
+05:50:47 Result is kept for 600 seconds
+05:50:47 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (cf0a81e2-51a0-48d6-99f8-0fd2811f4c2e)
+05:50:48 workspace-development-frappe-bench:default: Job OK (cf0a81e2-51a0-48d6-99f8-0fd2811f4c2e)
+05:50:48 Result is kept for 600 seconds
+05:54:46 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'hrms.hr.doctype.interview.interview.send_interview_reminder'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (68d31c64-1633-443f-8129-de177312b336)
+05:54:46 workspace-development-frappe-bench:default: Job OK (68d31c64-1633-443f-8129-de177312b336)
+05:54:46 Result is kept for 600 seconds
+05:54:46 Cleaning registries for queue: workspace-development-frappe-bench:default
+05:54:46 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (e7e50885-be54-4359-88ee-f572a32f968d)
+05:54:46 workspace-development-frappe-bench:default: Job OK (e7e50885-be54-4359-88ee-f572a32f968d)
+05:54:46 Result is kept for 600 seconds
+05:54:46 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (b5c87df1-8af2-4861-b471-3c5dadf4ab85)
+05:54:47 workspace-development-frappe-bench:default: Job OK (b5c87df1-8af2-4861-b471-3c5dadf4ab85)
+05:54:47 Result is kept for 600 seconds
+05:54:47 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (13afca49-bc89-424b-8cfd-e5a4bc808ff6)
+05:54:47 workspace-development-frappe-bench:default: Job OK (13afca49-bc89-424b-8cfd-e5a4bc808ff6)
+05:54:47 Result is kept for 600 seconds
+05:54:47 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (957fc116-98ce-4a06-9183-36e2279a07b7)
+05:54:47 workspace-development-frappe-bench:default: Job OK (957fc116-98ce-4a06-9183-36e2279a07b7)
+05:54:47 Result is kept for 600 seconds
+05:54:47 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (1bef30c5-5656-4689-9d57-864eb1b3bf64)
+05:54:48 workspace-development-frappe-bench:default: Job OK (1bef30c5-5656-4689-9d57-864eb1b3bf64)
+05:54:48 Result is kept for 600 seconds
+05:54:48 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (f097443b-e1cb-4172-ac59-a1dcc1b515a9)
+05:54:48 workspace-development-frappe-bench:default: Job OK (f097443b-e1cb-4172-ac59-a1dcc1b515a9)
+05:54:48 Result is kept for 600 seconds
+05:54:48 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (a098f911-4e46-457e-bd87-a5f88d8c2e82)
+05:54:49 workspace-development-frappe-bench:default: Job OK (a098f911-4e46-457e-bd87-a5f88d8c2e82)
+05:54:49 Result is kept for 600 seconds
+05:54:49 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (f6d623ff-04ee-4a83-b73a-408495a78906)
+05:54:49 workspace-development-frappe-bench:default: Job OK (f6d623ff-04ee-4a83-b73a-408495a78906)
+05:54:49 Result is kept for 600 seconds
+05:55:46 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext-testing.localhost', user='Administrator') (dc1420d2-8586-4773-aa6a-3e4c0516abfa)
+05:55:47 workspace-development-frappe-bench:default: Job OK (dc1420d2-8586-4773-aa6a-3e4c0516abfa)
+05:55:47 Result is kept for 600 seconds
+05:57:02 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='<function update_index_for_path at 0x7fcb43d8f0a0>', kwargs={'path': 'blog/general'}, method=<function update_index_for_path at 0x7fcb43d8f0a0>, site='erpnext-testing.localhost', user='Administrator') (6a615792-373a-46a9-a92b-d796eb4ce6ba)
+05:57:05 workspace-development-frappe-bench:default: Job OK (6a615792-373a-46a9-a92b-d796eb4ce6ba)
+05:57:05 Result is kept for 600 seconds
+05:58:31 Cleaning registries for queue: workspace-development-frappe-bench:short
+05:59:49 Cleaning registries for queue: workspace-development-frappe-bench:long
+06:10:35 Cleaning registries for queue: workspace-development-frappe-bench:default
+06:25:32 Cleaning registries for queue: workspace-development-frappe-bench:short
+06:26:49 Cleaning registries for queue: workspace-development-frappe-bench:long
+06:33:08 Warm shut down requested
+06:33:08 Warm shut down requested
+06:33:08 Warm shut down requested
+06:33:08 Unsubscribing from channel rq:pubsub:a9ac479940034fa4bbfcf01348ea48a3.b23e034caa25.644.workspace-development-frappe-bench:short
+06:33:08 Unsubscribing from channel rq:pubsub:b385f66da25d4079b576293f86d68b02.b23e034caa25.651.workspace-development-frappe-bench:long
+06:33:08 Unsubscribing from channel rq:pubsub:5518cfc148974c689bf5c8df51c6e77d.b23e034caa25.647.workspace-development-frappe-bench:default
+06:33:24 Worker rq:worker:9521c36fae8c463eabe1cb2c98d7b029.b23e034caa25.2182.workspace-development-frappe-bench:long: started, version 1.10.1
+06:33:24 Subscribing to channel rq:pubsub:9521c36fae8c463eabe1cb2c98d7b029.b23e034caa25.2182.workspace-development-frappe-bench:long
+06:33:24 *** Listening on workspace-development-frappe-bench:long...
+06:33:24 Worker rq:worker:b766c42e5c4245879899364d984ec195.b23e034caa25.2183.workspace-development-frappe-bench:short: started, version 1.10.1
+06:33:24 Subscribing to channel rq:pubsub:b766c42e5c4245879899364d984ec195.b23e034caa25.2183.workspace-development-frappe-bench:short
+06:33:24 *** Listening on workspace-development-frappe-bench:short...
+06:33:24 Worker rq:worker:78b982e2004d46cc85292261fae89726.b23e034caa25.2176.workspace-development-frappe-bench:default: started, version 1.10.1
+06:33:24 Subscribing to channel rq:pubsub:78b982e2004d46cc85292261fae89726.b23e034caa25.2176.workspace-development-frappe-bench:default
+06:33:24 *** Listening on workspace-development-frappe-bench:default...
+06:33:24 Cleaning registries for queue: workspace-development-frappe-bench:default
+06:36:10 Warm shut down requested
+06:36:10 Warm shut down requested
+06:36:10 Warm shut down requested
+06:36:10 Unsubscribing from channel rq:pubsub:9521c36fae8c463eabe1cb2c98d7b029.b23e034caa25.2182.workspace-development-frappe-bench:long
+06:36:10 Unsubscribing from channel rq:pubsub:b766c42e5c4245879899364d984ec195.b23e034caa25.2183.workspace-development-frappe-bench:short
+06:36:10 Unsubscribing from channel rq:pubsub:78b982e2004d46cc85292261fae89726.b23e034caa25.2176.workspace-development-frappe-bench:default
+06:36:49 Worker rq:worker:9b16023e63684e9eacc297dd427ad0ee.b23e034caa25.2417.workspace-development-frappe-bench:short: started, version 1.10.1
+06:36:49 Subscribing to channel rq:pubsub:9b16023e63684e9eacc297dd427ad0ee.b23e034caa25.2417.workspace-development-frappe-bench:short
+06:36:49 *** Listening on workspace-development-frappe-bench:short...
+06:36:49 Worker rq:worker:6fe8ffcec3c644ac821cb9ff32e80cef.b23e034caa25.2409.workspace-development-frappe-bench:long: started, version 1.10.1
+06:36:49 Subscribing to channel rq:pubsub:6fe8ffcec3c644ac821cb9ff32e80cef.b23e034caa25.2409.workspace-development-frappe-bench:long
+06:36:49 *** Listening on workspace-development-frappe-bench:long...
+06:36:49 Worker rq:worker:61462cbd26e34d2cb8f16c5506c42c1a.b23e034caa25.2416.workspace-development-frappe-bench:default: started, version 1.10.1
+06:36:49 Subscribing to channel rq:pubsub:61462cbd26e34d2cb8f16c5506c42c1a.b23e034caa25.2416.workspace-development-frappe-bench:default
+06:36:49 *** Listening on workspace-development-frappe-bench:default...
+06:37:34 Warm shut down requested
+06:37:34 Warm shut down requested
+06:37:34 Warm shut down requested
+06:37:34 Unsubscribing from channel rq:pubsub:61462cbd26e34d2cb8f16c5506c42c1a.b23e034caa25.2416.workspace-development-frappe-bench:default
+06:37:34 Unsubscribing from channel rq:pubsub:6fe8ffcec3c644ac821cb9ff32e80cef.b23e034caa25.2409.workspace-development-frappe-bench:long
+06:37:34 Unsubscribing from channel rq:pubsub:9b16023e63684e9eacc297dd427ad0ee.b23e034caa25.2417.workspace-development-frappe-bench:short
+06:38:30 Worker rq:worker:3b36d4626bf74200a4b3fa50b6a81935.b23e034caa25.2660.workspace-development-frappe-bench:long: started, version 1.10.1
+06:38:30 Subscribing to channel rq:pubsub:3b36d4626bf74200a4b3fa50b6a81935.b23e034caa25.2660.workspace-development-frappe-bench:long
+06:38:30 *** Listening on workspace-development-frappe-bench:long...
+06:38:30 Worker rq:worker:cfa95637bfa44e759501efbeccc1a440.b23e034caa25.2667.workspace-development-frappe-bench:default: started, version 1.10.1
+06:38:30 Subscribing to channel rq:pubsub:cfa95637bfa44e759501efbeccc1a440.b23e034caa25.2667.workspace-development-frappe-bench:default
+06:38:30 *** Listening on workspace-development-frappe-bench:default...
+06:38:31 Worker rq:worker:7cfdf45bdd8a4b499af656bc1410554e.b23e034caa25.2669.workspace-development-frappe-bench:short: started, version 1.10.1
+06:38:31 Subscribing to channel rq:pubsub:7cfdf45bdd8a4b499af656bc1410554e.b23e034caa25.2669.workspace-development-frappe-bench:short
+06:38:31 *** Listening on workspace-development-frappe-bench:short...
+06:39:13 Warm shut down requested
+06:39:13 Warm shut down requested
+06:39:13 Unsubscribing from channel rq:pubsub:3b36d4626bf74200a4b3fa50b6a81935.b23e034caa25.2660.workspace-development-frappe-bench:long
+06:39:13 Warm shut down requested
+06:39:13 Unsubscribing from channel rq:pubsub:cfa95637bfa44e759501efbeccc1a440.b23e034caa25.2667.workspace-development-frappe-bench:default
+06:39:14 Unsubscribing from channel rq:pubsub:7cfdf45bdd8a4b499af656bc1410554e.b23e034caa25.2669.workspace-development-frappe-bench:short
+06:39:20 Worker rq:worker:82fdf8a7ebba4dfd9e341a24a9a2a308.b23e034caa25.2810.workspace-development-frappe-bench:long: started, version 1.10.1
+06:39:20 Subscribing to channel rq:pubsub:82fdf8a7ebba4dfd9e341a24a9a2a308.b23e034caa25.2810.workspace-development-frappe-bench:long
+06:39:20 *** Listening on workspace-development-frappe-bench:long...
+06:39:21 Worker rq:worker:83bcbb6613c24a8a9bae2e2469f7399c.b23e034caa25.2805.workspace-development-frappe-bench:short: started, version 1.10.1
+06:39:21 Subscribing to channel rq:pubsub:83bcbb6613c24a8a9bae2e2469f7399c.b23e034caa25.2805.workspace-development-frappe-bench:short
+06:39:21 *** Listening on workspace-development-frappe-bench:short...
+06:39:21 Worker rq:worker:97c6dc74afde43209a77af25a961ad5b.b23e034caa25.2811.workspace-development-frappe-bench:default: started, version 1.10.1
+06:39:21 Subscribing to channel rq:pubsub:97c6dc74afde43209a77af25a961ad5b.b23e034caa25.2811.workspace-development-frappe-bench:default
+06:39:21 *** Listening on workspace-development-frappe-bench:default...
+06:40:33 Warm shut down requested
+06:40:33 Warm shut down requested
+06:40:33 Warm shut down requested
+06:40:33 Unsubscribing from channel rq:pubsub:83bcbb6613c24a8a9bae2e2469f7399c.b23e034caa25.2805.workspace-development-frappe-bench:short
+06:40:33 Unsubscribing from channel rq:pubsub:97c6dc74afde43209a77af25a961ad5b.b23e034caa25.2811.workspace-development-frappe-bench:default
+06:40:33 Unsubscribing from channel rq:pubsub:82fdf8a7ebba4dfd9e341a24a9a2a308.b23e034caa25.2810.workspace-development-frappe-bench:long
+06:41:00 Worker rq:worker:f55b3de37ddb47ae8c7b613f18e0f3c5.b23e034caa25.2972.workspace-development-frappe-bench:default: started, version 1.10.1
+06:41:00 Subscribing to channel rq:pubsub:f55b3de37ddb47ae8c7b613f18e0f3c5.b23e034caa25.2972.workspace-development-frappe-bench:default
+06:41:00 *** Listening on workspace-development-frappe-bench:default...
+06:41:01 Worker rq:worker:538740f7a1f445f1a0f8b8afcc2cf00e.b23e034caa25.2977.workspace-development-frappe-bench:long: started, version 1.10.1
+06:41:01 Subscribing to channel rq:pubsub:538740f7a1f445f1a0f8b8afcc2cf00e.b23e034caa25.2977.workspace-development-frappe-bench:long
+06:41:01 *** Listening on workspace-development-frappe-bench:long...
+06:41:02 Worker rq:worker:41c05abeebd742d2a1b91ceb70b44432.b23e034caa25.2983.workspace-development-frappe-bench:short: started, version 1.10.1
+06:41:02 Subscribing to channel rq:pubsub:41c05abeebd742d2a1b91ceb70b44432.b23e034caa25.2983.workspace-development-frappe-bench:short
+06:41:02 *** Listening on workspace-development-frappe-bench:short...
+06:41:02 Cleaning registries for queue: workspace-development-frappe-bench:short
+06:42:00 Warm shut down requested
+06:42:00 Warm shut down requested
+06:42:00 Warm shut down requested
+06:42:00 Unsubscribing from channel rq:pubsub:41c05abeebd742d2a1b91ceb70b44432.b23e034caa25.2983.workspace-development-frappe-bench:short
+06:42:00 Unsubscribing from channel rq:pubsub:f55b3de37ddb47ae8c7b613f18e0f3c5.b23e034caa25.2972.workspace-development-frappe-bench:default
+06:42:00 Unsubscribing from channel rq:pubsub:538740f7a1f445f1a0f8b8afcc2cf00e.b23e034caa25.2977.workspace-development-frappe-bench:long
+06:42:48 Worker rq:worker:dbacb7ac4e8d4413903434497e56e3ce.b23e034caa25.3168.workspace-development-frappe-bench:short: started, version 1.10.1
+06:42:48 Subscribing to channel rq:pubsub:dbacb7ac4e8d4413903434497e56e3ce.b23e034caa25.3168.workspace-development-frappe-bench:short
+06:42:48 *** Listening on workspace-development-frappe-bench:short...
+06:42:49 Worker rq:worker:57a935b0bc7c48e3b2e2dbbcda72e26c.b23e034caa25.3179.workspace-development-frappe-bench:default: started, version 1.10.1
+06:42:49 Subscribing to channel rq:pubsub:57a935b0bc7c48e3b2e2dbbcda72e26c.b23e034caa25.3179.workspace-development-frappe-bench:default
+06:42:49 *** Listening on workspace-development-frappe-bench:default...
+06:42:49 Worker rq:worker:90e898e73cbb445695e1a8ba48e158b6.b23e034caa25.3172.workspace-development-frappe-bench:long: started, version 1.10.1
+06:42:49 Subscribing to channel rq:pubsub:90e898e73cbb445695e1a8ba48e158b6.b23e034caa25.3172.workspace-development-frappe-bench:long
+06:42:49 *** Listening on workspace-development-frappe-bench:long...
+06:42:49 Cleaning registries for queue: workspace-development-frappe-bench:long
+06:43:19 Warm shut down requested
+06:43:19 Warm shut down requested
+06:43:19 Warm shut down requested
+06:43:19 Unsubscribing from channel rq:pubsub:dbacb7ac4e8d4413903434497e56e3ce.b23e034caa25.3168.workspace-development-frappe-bench:short
+06:43:19 Unsubscribing from channel rq:pubsub:57a935b0bc7c48e3b2e2dbbcda72e26c.b23e034caa25.3179.workspace-development-frappe-bench:default
+06:43:19 Unsubscribing from channel rq:pubsub:90e898e73cbb445695e1a8ba48e158b6.b23e034caa25.3172.workspace-development-frappe-bench:long
+06:44:46 Worker rq:worker:6d062d6017c14199ba3439df702b9e51.b23e034caa25.3554.workspace-development-frappe-bench:default: started, version 1.10.1
+06:44:46 Subscribing to channel rq:pubsub:6d062d6017c14199ba3439df702b9e51.b23e034caa25.3554.workspace-development-frappe-bench:default
+06:44:46 *** Listening on workspace-development-frappe-bench:default...
+06:44:46 Worker rq:worker:c0801a13cb4149b9a40d43a81695bc9c.b23e034caa25.3548.workspace-development-frappe-bench:long: started, version 1.10.1
+06:44:46 Subscribing to channel rq:pubsub:c0801a13cb4149b9a40d43a81695bc9c.b23e034caa25.3548.workspace-development-frappe-bench:long
+06:44:46 *** Listening on workspace-development-frappe-bench:long...
+06:44:47 Worker rq:worker:cf20ce34179642be843d3631990324df.b23e034caa25.3545.workspace-development-frappe-bench:short: started, version 1.10.1
+06:44:47 Subscribing to channel rq:pubsub:cf20ce34179642be843d3631990324df.b23e034caa25.3545.workspace-development-frappe-bench:short
+06:44:47 *** Listening on workspace-development-frappe-bench:short...
