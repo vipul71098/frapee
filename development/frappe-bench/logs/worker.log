@@ -1623,3 +1623,15 @@
 10:15:48 Worker rq:worker:6256050892314ac9a49c415bbae86dff.b23e034caa25.5103.workspace-development-frappe-bench:short: started, version 1.10.1
 10:15:48 Subscribing to channel rq:pubsub:6256050892314ac9a49c415bbae86dff.b23e034caa25.5103.workspace-development-frappe-bench:short
 10:15:48 *** Listening on workspace-development-frappe-bench:short...
+10:21:42 Worker rq:worker:7f93219f46ee4831ba4143583135faec.b23e034caa25.5291.workspace-development-frappe-bench:short: started, version 1.10.1
+10:21:42 Subscribing to channel rq:pubsub:7f93219f46ee4831ba4143583135faec.b23e034caa25.5291.workspace-development-frappe-bench:short
+10:21:42 *** Listening on workspace-development-frappe-bench:short...
+10:21:42 Worker rq:worker:710b09cf22944b6e88c9ea96fd8329ba.b23e034caa25.5293.workspace-development-frappe-bench:long: started, version 1.10.1
+10:21:42 Subscribing to channel rq:pubsub:710b09cf22944b6e88c9ea96fd8329ba.b23e034caa25.5293.workspace-development-frappe-bench:long
+10:21:42 *** Listening on workspace-development-frappe-bench:long...
+10:21:42 Worker rq:worker:fd2dad1d5e2f4f68819c0ade6571c3e3.b23e034caa25.5296.workspace-development-frappe-bench:default: started, version 1.10.1
+10:21:42 Subscribing to channel rq:pubsub:fd2dad1d5e2f4f68819c0ade6571c3e3.b23e034caa25.5296.workspace-development-frappe-bench:default
+10:21:42 *** Listening on workspace-development-frappe-bench:default...
+10:35:12 Cleaning registries for queue: workspace-development-frappe-bench:short
+10:35:12 Cleaning registries for queue: workspace-development-frappe-bench:default
+10:35:12 Cleaning registries for queue: workspace-development-frappe-bench:long

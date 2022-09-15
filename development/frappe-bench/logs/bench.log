@@ -262,3 +262,17 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2022-09-15 10:15:45,570 INFO /home/frappe/.local/bin/bench worker --queue short
 2022-09-15 10:15:45,708 INFO /home/frappe/.local/bin/bench worker --queue long
 2022-09-15 10:15:45,801 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 10:20:06,259 INFO /home/frappe/.local/bin/bench stop
+2022-09-15 10:20:07,676 INFO /home/frappe/.local/bin/bench start
+2022-09-15 10:20:08,242 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 10:20:08,297 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 10:20:08,359 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 10:20:08,374 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 10:20:08,395 INFO /home/frappe/.local/bin/bench worker --queue default
+2022-09-15 10:21:39,194 INFO /home/frappe/.local/bin/bench start
+2022-09-15 10:21:39,752 INFO /home/frappe/.local/bin/bench serve --port 8000
+2022-09-15 10:21:39,871 INFO /home/frappe/.local/bin/bench watch
+2022-09-15 10:21:39,873 INFO /home/frappe/.local/bin/bench worker --queue long
+2022-09-15 10:21:39,913 INFO /home/frappe/.local/bin/bench worker --queue short
+2022-09-15 10:21:39,916 INFO /home/frappe/.local/bin/bench schedule
+2022-09-15 10:21:39,925 INFO /home/frappe/.local/bin/bench worker --queue default
